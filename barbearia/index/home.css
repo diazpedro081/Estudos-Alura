@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 
+main{
+    background-color: darkgrey;
+}
 .titulo-principal{
     margin-left: 22px;
 }    
@@ -8,11 +11,14 @@
     width: 100%;
    }
    .principal{
-    background-color: darkgrey;
     padding: 30px;
 }
 .titulo-centralizado{
-       text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
    }
 #missao{
     font-size: 20px;
@@ -23,13 +29,14 @@ strong em{
 }
 .itens{
     font-style: italic;
+    
 }
 .beneficios{
     background-color:white;
     padding: 20px;  
 }
 
-ul{
+.lista-itens{
     display: inline-block;
     vertical-align: top;
     width: 20%;
