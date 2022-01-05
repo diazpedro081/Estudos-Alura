@@ -49,10 +49,10 @@ left: 27%;
     text-align: center;
 }
 .lista-beneficios{
-width: 40%;
-display: inline-block;
-vertical-align: top;
-}
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    }
 .imagem-beneficios{
     width: 60%;
     opacity: 1;
@@ -85,29 +85,40 @@ opacity: 0.3;
     margin: 2em auto;
 }
 
+
 @media screen and (max-width: 480px){
-/** .banner **/ .principal, .utensilios,/**.utensilios-img,**/ .mapa, .conteudo-beneficios{
+.principal, .utensilios, .mapa, .conteudo-beneficios{
     width: auto;
     padding: 0;    
 }
+.titulo-principal{
+    padding: 40px 0 0 0;
 }
-@media screen and (max-width: 480px){
 .conteudo-beneficios, .utensilios p{
     width: auto;
     left: auto;
     margin: 1em;
+}
+.itens{
+    font-size: 16px;
+    padding: 2%;
+}
+.itens::before{content: none}
+.imagem-beneficios{
+    left: 0;
+}
+.video{
+    border: 2em;
+    width: auto;
+    margin: 0;
+}
+}
 
-}
-}
-@media screen and (max-width: 480px){
-    .imagem-beneficios{
-        left: 0;
+@media screen and (max-width: 812px){
+    .conteudo-beneficios{
+     width: auto;
+     margin: o 0;
+     position:relative;
+     left: 0%;
     }
-    }
-@media screen and (max-width: 480px){
-    .video{
-        border: 2em;
-        width: auto;
-        margin: 0;
-    }
-}
+ }

@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .produtos{
-width: 940px;
-margin: 0 auto;
-padding: 50px 0;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 .produtos li{
     display: inline-block;
@@ -40,3 +40,25 @@ padding: 50px 0;
     font-weight: bold;
     margin: 10px 0 0;
 }
+
+/* @media screen and (max-width: 480px){
+.produtos{
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+.produtos li{
+    display: inline;
+    text-align: none;
+    width: 0;
+    vertical-align: none;
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;   
+}
+}
+@media screen and (max-width: 812px){
+
+} */
