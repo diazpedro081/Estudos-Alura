@@ -4,6 +4,7 @@ header{
     background-color: darkgrey;
 }
 .caixa{
+    
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -35,10 +36,31 @@ footer{
     background: url("bg.jpg");
     width: 100%;
     padding: 40px 0;
+    
 }
 .copyright{
     color: white;
     padding: 40px 0;
-    font-size: 13px;
-    margin: 20px 20px 0;
+    font-size: 13px 0;
+    padding: 40px 0;
+    
 }
+@media screen and (max-width: 480px){
+    header, .caixa, nav, footer{
+        width: auto;
+        margin: auto;
+        box-sizing: auto;
+        position: relative;
+        padding:0 0;
+
+    }  
+    }
+    @media screen and (max-width: 480px){
+        nav{
+            position: relative;
+            top:auto;
+        }
+    }
+    @media screen and (max-width: 480px){nav{
+        font-size: 16px;}
+    }

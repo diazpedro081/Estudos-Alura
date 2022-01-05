@@ -25,15 +25,67 @@
     </header>
     <main>
         <form>
-            <label for="nomeesobrenome">Nome Completo:</label>
-            <input type="text" id="nomeesobrenome">
+            <label for="nomeesobrenome">Nome Completo</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Digite seu nome">
 
-            <label for="Email">Email:</label>
-            <input type="text" id="Email">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-            <label for="Telefone">Telefone:</label>
-            <input type="text" id="telefone">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="Mensagem" id="mensagem" cols="60" rows="10" class="input-padrao" required>
+
+            </textarea>
+
+        <fieldset>    
+            <legend>Como prefere o nosso contato?</legend>
+
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+            
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp"> WhatsApp</label>
+            
+        </fieldset>
+
+        <fieldset>
+                <legend>Qual melhor horario para ser atendido?</legend>
+            <select>
+                <option value="Manha">Manha</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+        </fieldset>
+        
+            <label class="checkbox"> <input type="checkbox" required>Gostaria de receber nossas novidades por email?</label>
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+            
         </form>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th  class="th-tabela">Dia</th>
+                    <th  class="th-tabela">Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="conteudo-tabela">Segunda</td>
+                    <td class="conteudo-tabela">8h - 20h</td>
+                </tr>
+                <tr>
+                    <td class="conteudo-tabela">Quarta</td>
+                    <td class="conteudo-tabela">8h - 20h</td>
+                </tr>
+                <tr>
+                    <td class="conteudo-tabela">Sexta</td>
+                    <td class="conteudo-tabela">8h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <img src="../style/logo-branco.png" alt="img rodape">
