@@ -101,7 +101,7 @@ opacity: 0.3;
 }
 .itens{
     font-size: 16px;
-    padding: 2%;
+    padding: 2px;
 }
 .itens::before{content: none}
 .imagem-beneficios{
